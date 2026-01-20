@@ -1,96 +1,104 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <title>Selamat Datang</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil</title>
 
-    <!-- Font Awesome untuk icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            background: linear-gradient(135deg, #ff5f6d, #ffc371, #24c6dc, #514a9d);
-        }
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #4facfe, #6a11cb, #ff4ecd);
+      color: white;
+    }
 
-        .container {
-            width: 90%;
-            max-width: 400px;
-            text-align: center;
-        }
+    .profile {
+      width: 90%;
+      max-width: 400px;
+      text-align: center;
+    }
 
-        img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            border: 4px solid white;
-            margin-bottom: 15px;
-        }
+    .profile img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 15px;
+    }
 
-        h1 {
-            margin: 10px 0;
-            font-size: 28px;
-        }
+    .profile h1 {
+      margin: 5px 0;
+      font-size: 26px;
+    }
 
-        p {
-            font-size: 14px;
-            opacity: 0.9;
-        }
+    .profile p {
+      font-size: 14px;
+      opacity: 0.9;
+      margin-bottom: 25px;
+    }
 
-        .link {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            padding: 12px 20px;
-            margin: 15px 0;
-            border-radius: 30px;
-            font-weight: bold;
-            gap: 10px; /* jarak icon & teks */
-            transition: 0.3s;
-            color: white;
-            background: linear-gradient(135deg, #ff416c, #ff4b2b); /* gradasi tombol */
-        }
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px;
+      margin: 15px 0;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      transition: 0.3s;
+    }
 
-        .link:hover {
-            transform: scale(1.06);
-            background: linear-gradient(135deg, #ff4b2b, #ff416c);
-        }
+    .ig {
+      background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    }
 
-        footer {
-            margin-top: 20px;
-            font-size: 12px;
-            opacity: 0.7;
-        }
-    </style>
+    .tt {
+      background: linear-gradient(135deg, #000000, #333333);
+    }
+
+    .btn:hover {
+      transform: scale(1.06);
+      opacity: 0.9;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 12px;
+      opacity: 0.7;
+    }
+  </style>
 </head>
 <body>
 
-<div class="container">
+  <div class="profile">
     <img src="https://i.imgur.com/8Km9tLL.png" alt="Foto Profil">
 
-    <h1>SELAMAT DATANG</h1>
-    <p>Follow media sosial kami 👇</p>
+    <h1>Nama Kamu</h1>
+    <p>Bio singkat kamu di sini ✨</p>
 
-    <a class="link" href="https://www.instagram.com/fiqri_569?igsh=ZjZrN3RtYzgzOGF2" target="_blank">
-        <i class="fab fa-instagram"></i> Instagram
+    <a href="https://www.instagram.com/fiqri_569?igsh=ZjZrN3RtYzgzOGF2" class="btn ig" target="_blank">
+      <i class="fab fa-instagram"></i> Instagram
     </a>
 
-    <a class="link" href="https://www.tiktok.com/@fiqri_569?_r=1&_t=ZS-93DuZ8nlKQU" target="_blank">
-        <i class="fab fa-tiktok"></i> TikTok
+    <a href="https://www.tiktok.com/@fiqri_569?_r=1&_t=ZS-93DuZ8nlKQU" class="btn tt" target="_blank">
+      <i class="fab fa-tiktok"></i> TikTok
     </a>
 
     <footer>
-        © 2026
+      © 2026
     </footer>
-</div>
+  </div>
 
 </body>
 </html>
